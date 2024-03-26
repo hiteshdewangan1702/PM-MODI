@@ -1,0 +1,131 @@
+body {
+    margin: 10px;
+    background-color: #F47216;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    border-radius: 5px;
+    color: white;
+    padding-left: 15px;
+}
+
+.nav>#name {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.nav>#name:hover {
+    color: #F47216;
+}
+
+#navitem {
+    display: flex;
+    margin-right: 25px;
+}
+
+#navitem>a {
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+#navitem>a:hover {
+    text-decoration: underline;
+    color: #F47216;
+}
+
+.home {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.home>#homedesc>p {
+    width: 800px;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 70px;
+    color: black;
+    font-weight: 460;
+    text-align: justify;
+}
+
+.home>#homeimg>img {
+    height: 650px;
+    margin-right: 50px;
+
+
+}
+
+
+.secondpage {
+    margin-top: 200px;
+    margin-bottom: px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.secondpage>#seconddesc>p {
+    margin-top: 10px;
+    color: black;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#makeinindia>img {
+    height: 350px;
+}
+
+
+
+.thirdpage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdpage>#thirdimg {
+    /* height: 1000px; */
+    /* margin: 50x 0px 0px 400px; */
+    margin-left: 120px;
+    padding-top: 100px;
+}
+
+.thirdpage>#thirdimg>img {
+    height: 500px;
+
+}
+
+.thirdpage>#thirddesc {
+
+    width: 1200px;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 100px;
+    color: black;
+    font-weight: 460;
+    text-align: justify;
+}
+
+.footer {
+    background-color: black;
+    height: 220px;
+}
+
+.footer>p {
+    font-size: 20px;
+    margin-left: 25px;
+    /* padding: 25px; */
+    padding-top: 50px;
+
+    color: white;
+    font-weight: 460;
+    text-align: center;
+}
